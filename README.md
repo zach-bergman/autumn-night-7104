@@ -12,7 +12,7 @@ Using an Airbender API provided to you by your instructors, retrieve a subset of
 
 ### Versions
 
-Rails 7.0.x
+Rails 7.1.2
 
 Ruby 3.2.2
 
