@@ -8,8 +8,8 @@ RSpec.describe "Search Index" do
     click_button("Search For Members")
 
     expect(current_path).to eq(search_path)
-    expect(page).to have_content("20 members of the Fire Nation") ##
-    expect(page).to have_css(".member", count: 20) ##
+    expect(page).to have_content("97 members of the Fire Nation")
+    expect(page).to have_css(".member", count: 97)
 
     within(first(".member")) do
       within(".name") do
@@ -21,11 +21,11 @@ RSpec.describe "Search Index" do
       within(".enemies") do
         expect(page).to have_content("Sokka")
       end
-      within(".photo") do
-        expect(page).to have_content("Name: __")
-      end
+      # within("img") do
+      #   expect(page).to have_content("https://vignette.wikia.nocookie.net/avatar/images/0/02/Bully_guard.png/revision/latest?cb=20120702232626")
+      # end
       within(".affiliation") do
-        expect(page).to have_content("Name: __")
+        expect(page).to have_content("Fire Nation")
       end
     end
   end

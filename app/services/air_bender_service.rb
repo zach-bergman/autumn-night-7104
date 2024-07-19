@@ -9,8 +9,6 @@ class AirBenderService
   end
 
   def get_members_by_nation(nation)
-    get_url("api/v1/characters?affiliation=Fire+Nation")
+    get_url("api/v1/characters?affiliation=#{nation}&perPage=1000")
   end
 end
-
-# https://last-airbender-api.fly.dev/api/v1/characters?affiliation=Fire+Nation

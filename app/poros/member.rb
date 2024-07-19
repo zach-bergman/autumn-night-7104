@@ -1,6 +1,6 @@
 class Member
   attr_reader :id, :allies, :enemies, :photo, :affiliation, :name
-  
+
   def initialize(data)
     @id = data[:_id]
     @allies = data[:allies]

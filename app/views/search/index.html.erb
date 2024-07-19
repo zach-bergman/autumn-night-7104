@@ -1,9 +1,9 @@
-<%= @facade.count %> members of the Fire Nation
+<%= @facade.count %> members of the <%= @facade.first.affiliation%>
 
 <% @facade.each do |member| %>
   <section class="member">
     <h2 class="name"><%= member.name %></h2>
-    <%= image_tag("#{member.photo}")%>
+    <%= image_tag("#{member.photo}") %>
     <div class="allies">
       <h3>Allies</h3>
       <ul>
