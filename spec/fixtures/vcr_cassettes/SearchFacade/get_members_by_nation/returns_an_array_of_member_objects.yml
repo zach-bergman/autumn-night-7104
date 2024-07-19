@@ -27,7 +27,7 @@ http_interactions:
       Etag:
       - W/"6477-HzqVxT2Jf3qP3iUQ6trFrAxFuxg"
       Date:
-      - Fri, 19 Jul 2024 16:39:05 GMT
+      - Fri, 19 Jul 2024 16:50:42 GMT
       Connection:
       - keep-alive
       Keep-Alive:
@@ -39,7 +39,7 @@ http_interactions:
       Via:
       - 1.1 fly.io
       Fly-Request-Id:
-      - 01J35XS1AMNZMGX301C3K5HE6P-dfw
+      - 01J35YEA7GSV6GWRQ72H89T2TT-dfw
     body:
       encoding: UTF-8
       string: '[{"_id":"5cf5679a915ecad153ab68ef","allies":["Azula"],"enemies":["Sokka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/02/Bully_guard.png/revision/latest?cb=20120702232626","name":"Bully
@@ -205,5 +205,5 @@ http_interactions:
         Fire Nation military (formerly) Rough Rhinos"},{"_id":"5cf5679a915ecad153ab6a29","allies":["Chan"],"enemies":["Azula"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/37/Ruon-Jian.png/revision/latest?cb=20140908142128","name":"Ruon-Jian","affiliation":"Fire
         Nation"},{"_id":"5cf5679a915ecad153ab69da","allies":["Ming-Ming"],"enemies":[],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/5/50/Ming-Ming%27s_grandmother.png/revision/latest?cb=20131007130448","name":"Ming-Ming''s
         grandmother","affiliation":"Fire Nation"}]'
-  recorded_at: Fri, 19 Jul 2024 16:39:05 GMT
+  recorded_at: Fri, 19 Jul 2024 16:50:42 GMT
 recorded_with: VCR 6.2.0
