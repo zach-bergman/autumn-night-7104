@@ -27,7 +27,7 @@ http_interactions:
       Etag:
       - W/"1410-ER+WXku6Ll1FxOEu8kmifUdzu+4"
       Date:
-      - Fri, 19 Jul 2024 15:50:11 GMT
+      - Fri, 19 Jul 2024 16:39:06 GMT
       Connection:
       - keep-alive
       Keep-Alive:
@@ -39,7 +39,7 @@ http_interactions:
       Via:
       - 1.1 fly.io
       Fly-Request-Id:
-      - 01J35TZFXCKG571V1B7PTE03G8-dfw
+      - 01J35XS2EFRECWY20HV8WYZAA0-dfw
     body:
       encoding: UTF-8
       string: '[{"_id":"5cf5679a915ecad153ab68ef","allies":["Azula"],"enemies":["Sokka"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/0/02/Bully_guard.png/revision/latest?cb=20120702232626","name":"Bully
@@ -76,5 +76,5 @@ http_interactions:
         egg"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/7/71/Kuzon.png/revision/latest?cb=20130101100859","name":"Kuzon","affiliation":"Fire
         Nation"},{"_id":"5cf5679a915ecad153ab695e","allies":["Hide"],"enemies":["Aang"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/6/68/Headmaster.png/revision/latest?cb=20140602125536","name":"Headmaster","affiliation":"Fire
         Nation school"}]'
-  recorded_at: Fri, 19 Jul 2024 15:50:11 GMT
+  recorded_at: Fri, 19 Jul 2024 16:39:06 GMT
 recorded_with: VCR 6.2.0
